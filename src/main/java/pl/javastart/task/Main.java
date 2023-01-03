@@ -17,5 +17,12 @@ public class Main {
                 + shapeCalculator.calculateTrianglePerimeter(triangle));
         System.out.println("Obwód prostokąta: "
                 + shapeCalculator.calculateRectPerimeter(rectangle));
+
+        System.out.println();
+
+        System.out.println("Pole kwadratu: " + square.calculateArea());
+        System.out.println("Pole koła: " + circle.calculateArea());
+        System.out.println("Obwód trójkąta: " + triangle.calculatePerimeter());
+        System.out.println("Obwód prostokąta: " + rectangle.calculatePerimeter());
     }
 }

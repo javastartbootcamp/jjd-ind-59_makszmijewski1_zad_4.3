@@ -12,4 +12,8 @@ public class Circle {
     public double getRadius() {
         return radius;
     }
+
+    public double calculateArea() {
+        return Math.pow(radius, 2) * PI;
+    }
 }
